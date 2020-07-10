@@ -24,5 +24,6 @@ int main(int argc, char *argv[ ])
 		string run = "prime-run " + command + " &";
 		//cout<<run<<endl;
 		system(run.c_str());
+		//THIS IS NOT HOW YOU SHOULD DO THIS.  I'm just lazy.
 	}
 }
